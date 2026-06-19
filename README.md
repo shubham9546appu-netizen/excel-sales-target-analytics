@@ -1,6 +1,9 @@
 # Interactive Sales Performance & Target Analysis Dashboard
 An interactive, data-driven sales performance dashboard designed to track, analyze, and visualize sales executive performance across 8 major Indian regions over a 5-day cycle. Built with advanced Excel capabilities including Pivot Tables, Pivot Charts, Slicers, and dynamic Form Controls (checkbox-toggled dashboard sections) to deliver actionable business intelligence.
 
+## Live Dashboard Link
+- <a href=https://github.com/shubham9546appu-netizen/excel-sales-target-analytics/blob/main/sales%20dashboard.png>Dataset</a>
+
 ## Dataset Used
 - <a href=https://github.com/shubham9546appu-netizen/excel-sales-target-analytics/blob/main/Raw%20Data.xlsm>Dataset</a>
 
