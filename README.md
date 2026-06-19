@@ -1,9 +1,6 @@
 # Interactive Sales Performance & Target Analysis Dashboard
 An interactive, data-driven sales performance dashboard designed to track, analyze, and visualize sales executive performance across 8 major Indian regions over a 5-day cycle. Built with advanced Excel capabilities including Pivot Tables, Pivot Charts, Slicers, and dynamic Form Controls (checkbox-toggled dashboard sections) to deliver actionable business intelligence.
 
-## Live Dashboard Link
-- <a href=https://github.com/shubham9546appu-netizen/excel-sales-target-analytics/blob/main/sales%20dashboard.png>Dataset</a>
-
 ## Dataset Used
 - <a href=https://github.com/shubham9546appu-netizen/excel-sales-target-analytics/blob/main/Raw%20Data.xlsm>Dataset</a>
 
@@ -50,3 +47,53 @@ The lowest-performing executives requiring immediate support or training:
 * **Low Volume Days:** Day 1 (2,168 units) and Day 5 (2,213 units) saw lower momentum.
 * *Business Action:* Identify why sales dip on Day 1 and Day 5. Focus on mid-week pipeline acceleration strategies to maintain high volume throughout the 5-day cycle.
 ---
+
+## 📊 Dashboard Preview
+<img width="1166" height="565" alt="Screenshot 2025-08-17 151339" src="https://github.com/user-attachments/assets/ea5de87a-78f0-4266-843e-85c553d5628f" />
+
+## 📁 Repository Structure
+
+```text
+directory/
+│
+├── data/
+│   └── sales_raw_data.csv        # Cleaned raw sales data
+│
+├── screenshots/
+│   └── dashboard_preview.png    # Screenshot of the dashboard for README
+│
+├── Dynamic_Sales_Dashboard.xlsx # The main interactive Excel workbook
+│
+└── README.md                    # Project documentation
+```
+
+## 📋 Raw Data Schema
+
+The dashboard processes a table of **41 sales representatives** with the following fields:
+
+| Column Name | Data Type | Description |
+|------------|-----------|-------------|
+| Emp Code | String (Text) | Unique Identifier for each Sales Representative |
+| Sales Executive | String (Text) | Name of the Sales Representative |
+| Region | String (Text) | Operational sales region (8 unique regions) |
+| Day 1 - Day 5 | Integer (Numeric) | Daily unit sales volumes |
+| Total Sales | Integer (Numeric) | Cumulative sales over the 5-day cycle |
+| Target | Integer (Numeric) | Fixed sales target of 500 units |
+| Target Hit % | Percentage (Float) | Percentage of target achieved (`Total Sales / Target`) |
+| Away From Target % | Percentage (Float) | Remaining gap to target (`100% - Target Hit %`) |
+
+## 🚀 How to Interact with the Dashboard
+
+* **Download the Repository:** Clone or download the ZIP file of this repository.
+* **Open in Excel:** Open `Dynamic_Sales_Dashboard.xlsx` using Microsoft Excel (2016 or newer recommended).
+* **Filter by Region:** Click on any region button (Slicer) at the top of the dashboard to filter charts and tables for a specific region.
+* **Customize the View:** Use the **Dashboard 1–4** checkboxes to show or hide different dashboard sections dynamically.
+* **Analyze Performance:** Review sales trends, target achievement percentages, and gaps from targets using the interactive charts and tables.
+* **Explore Insights:** Compare sales executives across different regions and identify top and low performers.
+
+## 👨‍💼 Contact 
+
+* **Author:** Shubham Kumar
+* **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/shubham-kumar-0b537a364)
+* **Email:** [shubham9546appu@gmail.com](mailto:shubham9546appu@gmail.com)
+
